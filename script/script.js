@@ -275,7 +275,7 @@ function getWinText(player, computer) {
                 case "mini patato":
                     return "Hai vinto! Otto è geloso di Mini Patato e lo sconfigge.";
                 case "phon":
-                    return "Hai vinto! Otto mangiucchia il filo del Phon.";
+                    return "Hai vinto! Otto mangiucchia il filo del phon.";
                 default:
                     return "se leggi questa scritta sono un ritardato perchè ho lasciato degli errori nel codice"; // Aggiungi altre casistiche qui...
             }
@@ -343,9 +343,9 @@ function getWinText(player, computer) {
         case "phon":
             switch (computer) {
                 case "mia":
-                    return "Hai vinto! L'aria calda del Phon fanno venire sonno a mia";
+                    return "Hai vinto! L'aria calda del phon fanno venire sonno a mia";
                 case "baby e bebesita":
-                    return "Hai vinto! il Phon scioglie baby e bebesita.";
+                    return "Hai vinto! il phon scioglie baby e bebesita.";
                 case "mini patato":
                     return "Hai vinto! Per ora non sa ancora usarlo bene...";
                 case "mini patata":
@@ -400,7 +400,7 @@ function getLoseText(player, computer) {
                 case "patati":
                     return "Hai perso! I Patati giocano con Mia.";
                 case "phon":
-                    return "Hai perso! L'aria calda del Phon non fa avvicinare Mia, si annoia e se ne va";
+                    return "Hai perso! L'aria calda del phon non fa avvicinare Mia, si annoia e se ne va";
                 default:
                     return "se leggi questa scritta sono un ritardato perchè ho lasciato degli errori nel codice"; // Aggiungi altre casistiche qui...
             }
@@ -445,7 +445,7 @@ function getLoseText(player, computer) {
                 case "mini patata":
                     return "Hai perso! mini patata gioca con baby e bebesita.";
                 case "phon":
-                    return "Hai perso! il Phon scioglie baby e bebesita.";
+                    return "Hai perso! il phon scioglie baby e bebesita.";
                 case "mini patato":
                     return "Hai perso! mini patato gioca con baby e bebesita.";
                 case "patati":
@@ -481,7 +481,7 @@ function getLoseText(player, computer) {
         case "phon":
             switch (computer) {
                 case "otto":
-                    return "Hai perso! Otto mangiucchia il filo del Phon.";
+                    return "Hai perso! Otto mangiucchia il filo del phon.";
                 case "arca":
                     return "Hai perso! Non si sa dove arca abbia messo il phon...";
                 case "gato":
