@@ -1,41 +1,44 @@
+html {
+    font-size: 16px; /* Imposta un valore di base per il font size */
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
 .game {
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px in rem */
 }
 
 button {
     padding: 0;
-    margin: 0 10px;
+    margin: 0 0.625rem; /* 10px in rem */
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
 
 button img {
-    width: 170px; /* Regola la dimensione dell'immagine */
-    height: 170px;
+    width: 10.625rem; /* 170px in rem */
+    height: 10.625rem; /* 170px in rem */
 }
 
 .game-image {
-    max-width: 400px; /* Imposta la larghezza massima dell'immagine */
-    max-height: 400px; /* Imposta l'altezza massima dell'immagine */
+    max-width: 25rem; /* 400px in rem */
+    max-height: 25rem; /* 400px in rem */
 }
+
 .vs {
-    font-size: 24px; /* Imposta la dimensione del carattere desiderata */
-    font-weight: bold; /* Imposta il grassetto se necessario */
-    margin: 0 10px; /* Aggiunge uno spazio tra le immagini e il testo "vs" */
-    margin-right: 10px;
-    margin-left: 10px;
+    font-size: 1.5rem; /* 24px in rem */
+    font-weight: bold;
+    margin: 0 0.625rem; /* 10px in rem */
 }
 
 #resultText {
-    font-size: 24px; /* Imposta la dimensione del carattere desiderata */
-    font-weight: bold; /* Imposta il grassetto per enfatizzare */
-    color: #333; /* Imposta un colore personalizzato, ad esempio un grigio scuro */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra leggera */
-    margin: 10px 0; /* Aggiunge spazio sopra e sotto il testo */
+    font-size: 1.5rem; /* 24px in rem */
+    font-weight: bold;
+    color: #333;
+    text-shadow: 0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.5); /* 1px 1px 2px in rem */
+    margin: 0.625rem 0; /* 10px 0 in rem */
 }
