@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+button {
+    padding: 0;
+    margin: 0 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button img {
+    width: 200px; /* Regola la dimensione dell'immagine */
+    height: 200px;
+}
+
+.game-image {
+    max-width: 400px; /* Imposta la larghezza massima dell'immagine */
+    max-height: 400px; /* Imposta l'altezza massima dell'immagine */
+}
+.vs {
+    font-size: 24px; /* Imposta la dimensione del carattere desiderata */
+    font-weight: bold; /* Imposta il grassetto se necessario */
+    margin: 0 10px; /* Aggiunge uno spazio tra le immagini e il testo "vs" */
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#resultText {
+    font-size: 24px; /* Imposta la dimensione del carattere desiderata */
+    font-weight: bold; /* Imposta il grassetto per enfatizzare */
+    color: #333; /* Imposta un colore personalizzato, ad esempio un grigio scuro */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra leggera */
+    margin: 10px 0; /* Aggiunge spazio sopra e sotto il testo */
+}
